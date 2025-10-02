@@ -4,7 +4,7 @@ var _data = '';
 var currentLine = '';
 mounted();
 async function setLyric() {
-  await fetch('jogoter-pirit-vala-na.json', {
+  await fetch('https://masumbillah6778.github.io/music-lyrics/js/lyrics/jogoter-pirit-vala-na.js', {
     method: 'GET',
   })
     .then((response) => response.json())
