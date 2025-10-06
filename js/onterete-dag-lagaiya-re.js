@@ -4,7 +4,7 @@ var _data = '';
 var currentLine = '';
 mounted();
 async function setLyric() {
-  await fetch('js/lyrics/onterete-dag-lagaiya-re.json', {
+  await fetch('https://masumbillah6778.github.io/music-lyrics/js/lyrics/onterete-dag-lagaiya-re.json', {
     method: 'GET',
   })
     .then((response) => response.json())
