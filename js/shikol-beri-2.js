@@ -4,7 +4,7 @@ var _data = '';
 var currentLine = '';
 mounted();
 async function setLyric() {
-  await fetch('https://masumbillah6778.github.io/music-lyrics/js/lyrics/tor-pirite-pagol-hoilam-re.json', {
+  await fetch('https://masumbillah6778.github.io/music-lyrics/js/lyrics/shikol-beri-2.json', {
     method: 'GET',
   })
     .then((response) => response.json())
