@@ -4,7 +4,7 @@ var _data = '';
 var currentLine = '';
 mounted();
 async function setLyric() {
-  await fetch('js/lyrics/onterete-dag-lagaiya-re.json', {
+  await fetch('js/lyrics/amar-mon-pakhi.json', {
     method: 'GET',
   })
     .then((response) => response.json())
