@@ -4,7 +4,7 @@ var _data = '';
 var currentLine = '';
 mounted();
 async function setLyric() {
-  await fetch('js/lyrics/kisi-se-tum-pyar-karo.json', {
+  await fetch('https://masumbillah6778.github.io/music-lyrics/js/lyrics/kisi-se-tum-pyar-karo.json', {
     method: 'GET',
   })
     .then((response) => response.json())
